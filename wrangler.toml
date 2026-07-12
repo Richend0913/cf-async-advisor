@@ -1,0 +1,14 @@
+name = "cf-async-advisor"
+main = "worker.js"
+compatibility_date = "2026-06-01"
+
+[ai]
+binding = "AI"
+
+[[kv_namespaces]]
+binding = "QUOTA"
+id = "0cfca720df0b48af8fcfb80cf5183044"
+
+[[kv_namespaces]]
+binding = "ANALYTICS"
+id = "9c2c0ac044e2465a8e5c23a23f91a1b6"
